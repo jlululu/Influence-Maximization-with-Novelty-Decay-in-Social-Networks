@@ -20,3 +20,14 @@ Implemented in TDG.
                          
 I make use of the idea of "residual" from TDG to modify the R-Greedy Algorithm to apply to deterministic LT model. The new algorithm is implemented in LT_new. 
 
+Data souces used in the project:                         
+1. Digg dataset: It involves 1,731,658 friendship links of 71,367 distinct users.       
+https://www.isi.edu/˜lerman/downloads/digg2009.html                         
+
+2. Twitter dataset: It has 404,719 distinct nodes and 713,319 edges.                                        
+http://networkrepository.com/soc-twitter-follows.php                 
+
+3. Wikipedia vote dataset: It contains 7115 nodes and 103,689 edges.    
+https://snap.stanford.edu/data/wiki-Vote.html                                                      
+
+
