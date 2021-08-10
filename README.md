@@ -1,6 +1,12 @@
 # Influence-Maximization-with-Novelty-Decay-in-Social-Networks
+<pre>
 |                                                    
-|—— Datasets                                           
+|—— Datasets       
+|—— IMND|—— Node                                                                                                                                                        
+|       |—— Edge                                                                                                                    
+|       |—— DiGraph                                                                 
+|       |—— queueNode                                                                              
+|                                                                            
 |—— R-Greedy+PPND for ICND                                                   
 |—— R-Greedy+PPND for LTND                                                                                                                  
 |—— results                                                               
@@ -17,3 +23,4 @@ Available on: http://networkrepository.com/soc-twitter-follows.php
 Available on: https://snap.stanford.edu/data/cit-HepPh.html
 4. Epinions dataset: It has 75,879 nodes and 508,837 edges.                     
 Available on: https://snap.stanford.edu/data/soc-Epinions1.html
+</pre>
