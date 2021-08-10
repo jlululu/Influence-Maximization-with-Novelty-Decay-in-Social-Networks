@@ -1,4 +1,4 @@
-package IMND.IC
+package IMND;
 
 import java.util.*;
 
