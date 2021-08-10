@@ -1,5 +1,4 @@
-package IMND;
-
+import IMND.*;
 import java.util.*;
 import java.io.*;
 
