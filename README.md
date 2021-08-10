@@ -9,7 +9,8 @@
 |                                                                            
 |—— R-Greedy+PPND for ICND                                                   
 |—— R-Greedy+PPND for LTND                                                                                                                  
-|—— results                                                               
+|—— results   
+</pre>
 
 This is an individual project which aims to solve the Influence Maximization (IM) with novelty decay problem in social networks. 
 The diffussion model used in the project is the Linear Threshold model with novelty decay (LTND). 
