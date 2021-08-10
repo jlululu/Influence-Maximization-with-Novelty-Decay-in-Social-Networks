@@ -1,5 +1,7 @@
 package IMND.IC;
 
+import java.util.*;
+
 public class Edge{
     int time;
     double weight;
