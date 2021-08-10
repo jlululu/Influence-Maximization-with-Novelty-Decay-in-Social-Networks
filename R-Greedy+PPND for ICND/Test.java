@@ -1,4 +1,4 @@
-package IMND.IC;
+package IMND;
 
 import java.util.*;
 import java.io.*;
@@ -16,7 +16,7 @@ public public class Test{
     double theta = 0.001, sigma = 0;
     Set<Node> V = G.nodes;
 	  Map<Integer,Node> M = G.m;
-    Map<List<Node>,Vertex> E = G.edges;
+    Map<List<Node>,Edge> E = G.edges;
     Map<Node,Integer> Count = new HashMap<Node,Integer>();
     Map<Node,List<Double>> PPND = new HashMap<Node,List<Double>>();
 	  Map<Node,List<Double>> Pcon = new HashMap<Node,List<Double>>();
@@ -41,7 +41,7 @@ public public class Test{
 	    int t = Count.getOrDefault(w,0);
       if(t >= C)
         continue;
-      Vertex v = new Vertex();
+      Edge v = new Edge();
       double inf = 1.0;
       if(u.label != -1){
         v = E.get(Arrays.asList(u,w));
@@ -59,7 +59,7 @@ public public class Test{
           Node next = M.get(ind);
           if(path.contains(next))
           continue;
-          Vertex v_next = E.get(Arrays.asList(w,next));
+          Edge v_next = E.get(Arrays.asList(w,next));
           Set<Node> path_new = new HashSet<Node>();
           path_new.addAll(path);
           path_new.add(next);
@@ -152,7 +152,7 @@ public public class Test{
   public static int IC(DiGraph G, Set<Node> S){
     int sigma = 0;
     Map<Integer,Node> M = G.m;
-    Map<List<Node>,Vertex> E = G.edges;
+    Map<List<Node>,Edge> E = G.edges;
     for(int i = 0;i < 10000;i ++){
       Map<Node,Double> H = new HashMap<Node,Double>();
       Set<Node> activated = new HashSet<Node>();
@@ -181,7 +181,7 @@ public public class Test{
         Node next = M.get(ind);
         if(activated.contains(next))
           continue;
-        Vertex v_next = E.get(Arrays.asList(w,next));
+        Edge v_next = E.get(Arrays.asList(w,next));
         q.offer(new queueNode(time+v_next.time,w,next));
         }
       }
