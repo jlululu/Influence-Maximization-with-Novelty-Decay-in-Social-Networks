@@ -17,11 +17,11 @@ The diffussion model used in the project is the Linear Threshold model with nove
 I have tried to implement the R-Greedy algorithm from Feng et al. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.708.3308&rep=rep1&type=pdf. 
 For the computation of the influence spread during the process, I developed a propagation path based algorithm for LTND model.                           
                         
-Datasets used in the project:    
-1. WikiVote dataset: It contains 7,115 nodes and 103,689 edges.    
-Available on: https://snap.stanford.edu/data/wiki-Vote.html                                                                                                                       
-2. Twitter dataset: It has 404,719 nodes and 713,319 edges.                                        
-Available on: http://networkrepository.com/soc-twitter-follows.php    
+Datasets used in the project:                                                                                                                           
+1. Email-EU dataset: It has 1,005 nodes and 25,571 edges.                                        
+Available on: https://snap.stanford.edu/data/email-Eu-core.html
+2. WikiVote dataset: It contains 7,115 nodes and 103,689 edges.    
+Available on: https://snap.stanford.edu/data/wiki-Vote.html
 3. HEP-PH dataset: It contains 34,546 nodes and 421,578 edges.                
 Available on: https://snap.stanford.edu/data/cit-HepPh.html
 4. Epinions dataset: It has 75,879 nodes and 508,837 edges.                     
